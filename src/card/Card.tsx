@@ -1,17 +1,16 @@
+import { useEffect } from "react";
 import useCardsShuffleAlgorithm from "../hooks/useCardsShuffleAlgorithm";
 
 function Card(){
   const cardsData = useCardsShuffleAlgorithm();
-  const ee = cardsData();
-  console.log("...aaa ", ee);
 
-  setTimeout(() => {
-    cardsData();
-  }, 2000);
-  
-    return (
+  useEffect(()=>{
+    console.log("card shuffle data ISSS ", cardsData);
+    
+  },[cardsData]);  
+  return (
         <div style={{position: 'absolute', top: '0px'}}>
-          Hello Uno {ee.length}
+          Hello Uno {cardsData.length}
         </div>
     )
 }
