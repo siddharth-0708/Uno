@@ -59,15 +59,17 @@ export default function useCardsShuffleAlgorithm() {
         }
         console.log("......................");
         
-        console.log("Initial deck of cards is ", [...cardsArray.current]);
+        // console.log("Initial deck of cards is ", [...cardsArray.current]);
 
         const cards = cardsArray.current;
 
-        for (let i = cards.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [cards[i], cards[j]] = [cards[j], cards[i]]; // Swap elements
+        for (let i = 0; i < cards.length; i++) {
+            const j = Math.floor(Math.random() * (cards.length - i)) + i;
+            const temp = cards[i];
+            cards[i] = cards[j];
+            cards[j] = temp;
         }
-        console.log("shuffled deck of cards is ", [...cardsArray.current]);
+        // console.log("shuffled deck of cards is ", [...cardsArray.current]);
         return cards;
     },[state]);
 
