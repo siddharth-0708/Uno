@@ -1,0 +1,30 @@
+"use strict";
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdateuno"]("main",{
+
+/***/ "./src/store/gameSlices.tsx":
+/*!**********************************!*\
+  !*** ./src/store/gameSlices.tsx ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   unoActions: () => (/* binding */ unoActions),\n/* harmony export */   unoReducers: () => (/* binding */ unoReducers)\n/* harmony export */ });\n/* harmony import */ var _reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @reduxjs/toolkit */ \"./node_modules/@reduxjs/toolkit/dist/redux-toolkit.modern.mjs\");\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ \"./src/store/utils.ts\");\n\n\nvar initialState = {\n  cardsData: []\n};\nvar unoSlice = (0,_reduxjs_toolkit__WEBPACK_IMPORTED_MODULE_1__.createSlice)({\n  name: \"uno\",\n  initialState: initialState,\n  reducers: {\n    setInitCardsData: function setInitCardsData(state) {\n      state.cardsData = (0,_utils__WEBPACK_IMPORTED_MODULE_0__.generateUnoDeck)();\n    },\n    setShuffleCards: function setShuffleCards(state, actions) {\n      state.cardsData = (0,_utils__WEBPACK_IMPORTED_MODULE_0__.shuffledCards)(actions.payload);\n    }\n  }\n});\nvar unoActions = unoSlice.actions;\nvar unoReducers = unoSlice.reducer;\n\n//# sourceURL=webpack://uno/./src/store/gameSlices.tsx?");
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("e1d922aef0ac300a92bc")
+/******/ })();
+/******/ 
+/******/ }
+);

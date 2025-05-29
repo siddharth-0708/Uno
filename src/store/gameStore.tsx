@@ -1,10 +1,10 @@
 import { configureStore, Store } from "@reduxjs/toolkit";
-import { snakesAndLadderReducers } from "./gameSlices";
+import { unoReducers } from "./gameSlices";
 
 export const store = configureStore(
     {
         reducer : {
-          gameState:  snakesAndLadderReducers
+          gameState:  unoReducers
         }
     }
 );

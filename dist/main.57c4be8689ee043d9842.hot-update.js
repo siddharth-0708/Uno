@@ -1,0 +1,29 @@
+/*
+ * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdateuno"]("main",{
+
+/***/ "./FirstComponent.jsx":
+/*!****************************!*\
+  !*** ./FirstComponent.jsx ***!
+  \****************************/
+/***/ (() => {
+
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nSyntaxError: /Users/siddharth/coding/uno/FirstComponent.jsx: Missing semicolon. (15:9)\\n\\n\\u001b[0m \\u001b[90m 13 |\\u001b[39m     \\u001b[36mconst\\u001b[39m cardsData \\u001b[33m=\\u001b[39m gameSelectors\\u001b[33m.\\u001b[39m\\n \\u001b[90m 14 |\\u001b[39m\\n\\u001b[31m\\u001b[1m>\\u001b[22m\\u001b[39m\\u001b[90m 15 |\\u001b[39m     \\u001b[36mconst\\u001b[39m calculatePercentage \\u001b[33m=\\u001b[39m () \\u001b[33m=>\\u001b[39m {\\n \\u001b[90m    |\\u001b[39m          \\u001b[31m\\u001b[1m^\\u001b[22m\\u001b[39m\\n \\u001b[90m 16 |\\u001b[39m         \\u001b[36mreturn\\u001b[39m \\u001b[33mMath\\u001b[39m\\u001b[33m.\\u001b[39mround(((percentage \\u001b[33m/\\u001b[39m resources\\u001b[33m.\\u001b[39mlength) \\u001b[33m*\\u001b[39m \\u001b[35m100\\u001b[39m)) \\u001b[33m+\\u001b[39m \\u001b[32m'%'\\u001b[39m\\u001b[33m;\\u001b[39m\\n \\u001b[90m 17 |\\u001b[39m     }\\n \\u001b[90m 18 |\\u001b[39m\\u001b[0m\\n    at constructor (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:359:19)\\n    at JSXParserMixin.raise (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:3266:19)\\n    at JSXParserMixin.semicolon (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:3592:10)\\n    at JSXParserMixin.parseVarStatement (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12729:10)\\n    at JSXParserMixin.parseStatementContent (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12344:23)\\n    at JSXParserMixin.parseStatementLike (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12261:17)\\n    at JSXParserMixin.parseStatementListItem (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12241:17)\\n    at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12814:61)\\n    at JSXParserMixin.parseBlockBody (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12807:10)\\n    at JSXParserMixin.parseBlock (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12795:10)\\n    at JSXParserMixin.parseFunctionBody (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:11638:24)\\n    at JSXParserMixin.parseFunctionBodyAndFinish (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:11624:10)\\n    at /Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12939:12\\n    at JSXParserMixin.withSmartMixTopicForbiddingContext (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:11932:14)\\n    at JSXParserMixin.parseFunction (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12938:10)\\n    at JSXParserMixin.parseFunctionStatement (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12623:17)\\n    at JSXParserMixin.parseStatementContent (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12285:21)\\n    at JSXParserMixin.parseStatementLike (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12261:17)\\n    at JSXParserMixin.parseModuleItem (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12238:17)\\n    at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12814:36)\\n    at JSXParserMixin.parseBlockBody (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12807:10)\\n    at JSXParserMixin.parseProgram (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12135:10)\\n    at JSXParserMixin.parseTopLevel (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:12125:25)\\n    at JSXParserMixin.parse (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:13933:10)\\n    at parse (/Users/siddharth/coding/uno/node_modules/@babel/parser/lib/index.js:13967:38)\\n    at parser (/Users/siddharth/coding/uno/node_modules/@babel/core/lib/parser/index.js:41:34)\\n    at parser.next (<anonymous>)\\n    at normalizeFile (/Users/siddharth/coding/uno/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)\\n    at normalizeFile.next (<anonymous>)\\n    at run (/Users/siddharth/coding/uno/node_modules/@babel/core/lib/transformation/index.js:21:50)\\n    at run.next (<anonymous>)\\n    at transform (/Users/siddharth/coding/uno/node_modules/@babel/core/lib/transform.js:22:33)\\n    at transform.next (<anonymous>)\\n    at step (/Users/siddharth/coding/uno/node_modules/gensync/index.js:261:32)\\n    at /Users/siddharth/coding/uno/node_modules/gensync/index.js:273:13\\n    at async.call.result.err.err (/Users/siddharth/coding/uno/node_modules/gensync/index.js:223:11)\");\n\n//# sourceURL=webpack://uno/./FirstComponent.jsx?");
+
+/***/ })
+
+},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ (() => {
+/******/ 	__webpack_require__.h = () => ("93952df1f658ea3cb294")
+/******/ })();
+/******/ 
+/******/ }
+);

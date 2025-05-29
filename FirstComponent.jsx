@@ -3,11 +3,13 @@ import Card from "./src/card/Card";
 import PreLoader from "./src/preLoader/PreLoader";
 import { resources } from "./resources";
 import { useEffect, useState } from "react";
-
+import { unoActions } from './src/store/gameSlices';
+import { useDispatch } from "react-redux";
 
 function FirstComponent() {
     const [data, setData] = useState(false);
     const [percentage, setPercentage] = useState(0);
+    const dispatch = useDispatch();
 
     const calculatePercentage = () => {
         return Math.round(((percentage / resources.length) * 100)) + '%';
@@ -41,6 +43,7 @@ function FirstComponent() {
     useEffect(()=>{
         schedulePreload(resources).then(() => {
             setTimeout(() => {
+                dispatch(unoActions.setInitCardsData()); //check this
                 setData(true);
             }, 500);
         }).catch(() => {

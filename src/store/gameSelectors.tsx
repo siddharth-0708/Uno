@@ -3,26 +3,11 @@ import { gameStateTypeProps } from "./gameSlices";
 import { RootState } from "./gameStore";
 
 const gameSelectors = {
-    getCount: (): gameStateTypeProps['count']=>{
-        return useSelector(({gameState}: RootState)=> gameState.count);
+    getCardsData: (): gameStateTypeProps['cardsData']=>{
+        return useSelector(({gameState}: RootState)=> gameState.cardsData);
     },
-    getCellData: (): gameStateTypeProps['cellsData']=>{
-        return useSelector(({gameState}: RootState)=> gameState.cellsData);
-    },
-    getDiceData: (): gameStateTypeProps['diceData']=>{
-        return useSelector(({gameState}: RootState)=> gameState.diceData);
-    },
-    getSnakesMapping: (): gameStateTypeProps['snakesMapping']=>{
-        return useSelector(({gameState}: RootState)=> gameState.snakesMapping);
-    },
-    getLadderMapping: (): gameStateTypeProps['ladderMapping']=>{
-        return useSelector(({gameState}: RootState)=> gameState.ladderMapping);
-    },
-    getDicePlayerNumber: (): gameStateTypeProps['dicePlayerNumber']=>{
-        return useSelector(({gameState}: RootState)=> gameState.dicePlayerNumber);
-    },
-    getDiceNumber: (): gameStateTypeProps['diceNumber']=>{
-        return useSelector(({gameState}: RootState)=> gameState.diceNumber);
+    getPlayerCardsData: (): gameStateTypeProps['playerCardsData']=>{
+        return useSelector(({gameState}: RootState)=> gameState.playerCardsData);
     }
 }
 export default gameSelectors;

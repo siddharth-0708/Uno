@@ -117,7 +117,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.tsx']  // Support JSX file extensions
+    extensions: ['.js', '.jsx', '.tsx', '.ts']  // Support JSX file extensions
   },
 };
 
